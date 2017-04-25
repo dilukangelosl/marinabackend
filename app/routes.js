@@ -21,9 +21,18 @@ app.config(function($stateProvider,$urlRouterProvider) {
         controller:'homeCtrl'
     }
 
+    var users = {
+        name: 'home.dashboard',
+        url: '/dashboard',
+        templateUrl: 'dashboard/dash.html',
+        controller:'homeCtrl'
+    }
+
     $stateProvider.state(login);
     $stateProvider.state(home);
     $stateProvider.state(dashboard);
+
+    $stateProvider.state(users);
 
     $urlRouterProvider.otherwise('/login');
 });
