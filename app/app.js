@@ -6,7 +6,8 @@ var app = angular.module('myApp', [
 
     'myApp.version',
     'ui.router',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'smart-table'
 ]).
 config( function($locationProvider) {
  // $locationProvider.hashPrefix('!');

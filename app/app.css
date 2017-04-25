@@ -241,3 +241,44 @@ display: block;
 }
 
 
+#news{
+  height: 100vh;
+  background: #ecf0f1;
+  margin-top: 15px;
+
+}
+
+.section {
+
+
+  width: 100%;
+  display: block;
+  padding: 10px;
+
+}
+
+.section1{
+  background: #9b59b6;
+}
+.section h1{
+  color:white;
+  font-weight: 100;
+}
+.controlsection{
+
+  width: 100%;
+  display: block;
+  padding: 10px;
+  background: #bdc3c7;
+
+}
+
+.controlbutton{
+  width: 100px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.viewtable{
+  background: white;
+  padding: 15px;
+}
