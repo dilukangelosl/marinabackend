@@ -1,0 +1,29 @@
+<section id="login">
+
+
+        <div class="logincontainer center">
+
+            <img src="assets/img/logo.png" class="logo center" width="130"/>
+
+            <div class="form-group">
+                <label for="usr">Username</label>
+                <input type="text" class="form-control" id="usr" ng-model="login.username">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password</label>
+                <input type="password" class="form-control" id="pwd" ng-model="login.password">
+            </div>
+
+            <button ng-disabled="loading" class="button black center" ng-click="loginuser(login)" >Login</button>
+
+            <div class="progress1" ng-show="loading">
+                <div class="spinner"></div>
+            </div>
+
+            <div class="message">
+                {{message}}
+            </div>
+
+        </div>
+
+</section>
