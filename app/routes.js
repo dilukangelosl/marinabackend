@@ -22,11 +22,19 @@ app.config(function($stateProvider,$urlRouterProvider) {
         controller:'homeCtrl'
     }
 
+    var news = {
+        name: 'home.news',
+        url: '/news',
+        templateUrl: 'news/news.html',
+        controller:'newsCtrl'
+    }
+
 
 
     $stateProvider.state(login);
     $stateProvider.state(home);
     $stateProvider.state(dashboard);
+    $stateProvider.state(news);
 
 
     $urlRouterProvider.otherwise('/login');
