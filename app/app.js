@@ -4,7 +4,9 @@
 var app = angular.module('myApp', [
 
 
-  'myApp.version','ui.router','ui.bootstrap'
+    'myApp.version',
+    'ui.router',
+    'ui.bootstrap'
 ]).
 config( function($locationProvider) {
  // $locationProvider.hashPrefix('!');
